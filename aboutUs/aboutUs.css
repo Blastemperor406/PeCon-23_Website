@@ -92,23 +92,7 @@
   width: 85px;
   height: 101px;
 }
-.about-us1,
-.home {
-  position: absolute;
-  top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 85px;
-  height: 42px;
-}
-.home {
-  left: 180px;
-  cursor: pointer;
-}
-.about-us1 {
-  left: 360px;
-}
+
 .image-2 {
   text-decoration: none;
   position: absolute;
@@ -136,17 +120,28 @@
   width: 55px;
   height: 37px;
 }
+.about-us1,
+.home,
 .contact-us,
 .register,
 .resource {
   position: absolute;
   top: 20px;
-  left: 540px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 85px;
   height: 42px;
+}
+.home {
+  left: 180px;
+  cursor: pointer;
+}
+.about-us1 {
+  left: 360px;
+}
+.contact-us{
+  left: 540px;
 }
 .register {
   left: 720px;
@@ -155,8 +150,6 @@
   top:20px;
   left: 900px;
 }
-
-
 .navbar {
   position: absolute;
   top: 19px;
