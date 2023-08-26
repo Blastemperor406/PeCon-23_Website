@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-be-vietnam: "Be Vietnam";
+  --font-bebas-neue: "Bebas Neue";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-lg: 18px;
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-midnightblue-100: #371e67;
+  --color-gainsboro-100: #d9d9d9;
+  --color-gainsboro-200: rgba(217, 217, 217, 0);
+}
