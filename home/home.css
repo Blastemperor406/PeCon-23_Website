@@ -80,6 +80,7 @@
 }
 .delegates-today {
   margin: 0;
+  
 }
 .leaders-tomorrow {
   margin: 0;
@@ -91,14 +92,15 @@
 }
 .delegates-today-leaders-container {
   position: absolute;
-  top: 519px;
-  left: 72px;
+  top: 6.5%;
+  left: 6%;
   font-size: 70px;
   text-align: left;
-  display: flex;
+  display: fvw ex;
   align-items: center;
-  width: 506px;
-  height: 119px;
+  width: 70vw;
+  height: 10vh;
+  align-items: left;
 }
 .united-nations-security {
   position: absolute;
@@ -111,7 +113,10 @@
   width: 393px;
   height: 115px;
 }
-.lorem-ipsum-dolor,
+.lorem-ipsum-dolor{
+  padding: 0.5rem;
+  font-size: 1.95vw;
+}
 .lorem-ipsum-dolor1 {
   position: absolute;
   top: 655px;
@@ -129,17 +134,7 @@
   width: 693px;
   height: 359px;
 }
-.registerbutton-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 20px;
-  background-color: var(--color-gainsboro-200);
-  border: 1px solid var(--color-white);
-  box-sizing: border-box;
-  width: 273px;
-  height: 60px;
-}
+
 .register-now {
   position: absolute;
   top: 17px;
@@ -151,13 +146,16 @@
   height: 25px;
 }
 .registerbutton {
-  position: absolute;
-  top: 810px;
-  left: 72px;
   width: 273px;
   height: 60px;
   cursor: pointer;
-  font-size: var(--font-size-11xl);
+  font-size: 0.5em;
+  font-family: Bebas neue;
+  background-color:transparent;
+  color:white;
+  border-radius: 50em;
+  border: 3px solid white;
+  text-align: center;
 }
 .image-1-icon {
   position: absolute;
@@ -454,10 +452,21 @@
   left: 781px;
   display: flex;
   align-items: center;
-  width: 590px;
-  height: 286px;
+  width: 100vp;
+  height: 10%;
   font-family: var(--font-be-vietnam);
 }
+.our-location-100-container-2 {
+  position: absolute;
+  top: 12px;
+  left: 781px;
+  display: flex;
+  align-items: center;
+  width: 100vp;
+  height: 10%;
+  font-family: var(--font-be-vietnam);
+}
+
 .mapsicle-map-icon {
   position: absolute;
   top: 32px;
@@ -490,4 +499,10 @@
   font-size: var(--font-size-lg);
   color: var(--color-white);
   font-family: var(--font-bebas-neue);
+}
+.map{
+  
+  right :80%;
+  width: 40%;
+  height: 60%;
 }
