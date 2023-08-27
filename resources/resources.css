@@ -184,7 +184,7 @@
   text-decoration: none;
   position: absolute;
   top: 254px;
-  left: 275px;
+  left: 269px;
   color: inherit;
   display: flex;
   align-items: center;
@@ -196,7 +196,7 @@
 .background-guide-united-container4 {
   position: absolute;
   top: 486px;
-  left: 275px;
+  left: 269px;
   display: flex;
   align-items: center;
   width: 372px;
@@ -206,25 +206,31 @@
   top: 720px;
   left: 916px;
 }
-.background-guide-united-container10,
+
 .background-guide-united-container6,
 .background-guide-united-container8 {
   position: absolute;
   top: 486px;
-  left: 901px;
+  left: 916px;
   display: flex;
   align-items: center;
   width: 372px;
   height: 67px;
 }
-.background-guide-united-container10,
+.background-guide-united-container10 {
+  position: absolute;
+  top: 720px;
+  left: 308px;
+  display: flex;
+  align-items: center;
+  width: 290px;
+  height: 67px;
+}
+
 .background-guide-united-container8 {
   top: 254px;
 }
-.background-guide-united-container10 {
-  top: 720px;
-  left: 269px;
-}
+
 .resources {
   position: relative;
   background-color: #000;
