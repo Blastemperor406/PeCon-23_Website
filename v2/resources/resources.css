@@ -1,0 +1,712 @@
+.main-body{
+    background-color: black;
+    height:100vh;
+    width:100vw;
+    overflow-y: scroll;
+
+
+}
+.header-bar{
+    background-color: transparent;
+    width: 100%;
+    height: 10%;
+    background-color: transparent;}
+.munsoc-logo{
+    height:100%;
+    max-width:100%;
+    padding-left: 4%;
+    align-self: center;
+    padding-top: 1%;
+}
+
+.home-button{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left:8%;
+    bottom: 30%;
+    align-self: center;
+    position: relative;
+    
+}
+.about-us-button{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left:4%;
+    bottom: 30%;
+    align-self: center;
+    position: relative;
+}
+
+.register-button{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left:4%;
+    bottom: 30%;
+    align-self: center;
+    position: relative;
+}
+
+.resources-button{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left:5%;
+    bottom: 30%;
+    align-self: center;
+    position: relative;
+}
+
+.contact-us-button{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left:5%;
+    bottom: 30%;
+    align-self: center;
+    position: relative;
+}
+
+.committees-button{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 2vw;
+    padding-left:5%;
+    bottom: 30%;
+    align-self: center;
+    position: relative;
+}
+
+.insta{
+    height:40%;
+    max-width:40%;
+    align-self: center;
+    padding-left:3%;
+    position: relative;
+    bottom: 12%;
+    
+}
+
+.linkedIn{
+    height:40%;
+    max-width:40%;
+    align-self: center;
+    position: relative;
+    padding-left: 0.5%;
+    bottom: 12%;
+}
+
+
+.resources-header{
+    background-color: transparent;
+    width: 100%;
+    height: 10%;
+     
+}
+.resources-header-text{
+    color: #371e67;
+    font-weight: 600;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 4vw;
+    padding-left: 42%;
+    
+    
+    position: relative;
+}
+
+.row-one{
+    display: flex;
+    position: relative;
+    background-color:transparent;
+    width: 100%;
+    height: 25%;
+
+}
+
+.delegate-handbook,
+.equity-policy{
+    display: flex;
+    flex-direction: row;
+    height: 15vw;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    
+}
+.delegate-handbook-logo{
+    height:70%;
+    max-width:100%;
+    align-self: center;
+    position: relative;
+    bottom: 12%;
+    padding-top: 10%;
+}
+.delegate-handbook-text{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    font-size: 2.75vw;
+    bottom: 7%; 
+    padding-left: 20%;
+    padding-top: 10%;
+}
+.equity-policy{
+    padding-left: 25%;
+    
+}
+.equity-logo{
+    height:70%;
+    max-width:100%;
+    align-self: center;
+    position: relative;
+    padding-top: 10%;
+    bottom: 12%;
+}
+.equity-text{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    font-size: 2.75vw;
+    bottom: 7%;
+    padding-left: 20%;
+    padding-top: 10%;
+    
+}
+
+.background-guides-header{
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    height: 10%;
+    
+}
+.background-guides-header-text{
+    color: #371e67;
+    font-weight: 600;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    font-size: 4vw;
+    padding-left: 36%;
+    position: relative;
+}
+
+.background-guides-row-one,
+.background-guides-row-two,
+.background-guides-row-three{
+    display: flex;
+    position: relative;
+    background-color:transparent;
+    width: 100%;
+    height: 30%;   
+}
+
+.UNSC,
+.HRC,
+.DISEC,
+.IPC,
+.LokSabha,
+.USSenate{
+    display: flex;
+    flex-direction: row;
+    height: 15vw;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+}
+.IPC{
+    padding-left: 18.5%;
+}
+.LokSabha{
+    padding-left:8.5% ;
+}
+.USSenate{
+    padding-left: 29%;
+    
+}
+.UNSC-text,
+.HRC-text,
+.DISEC-text,
+.IPC-text,
+.LokSabha-text,
+.USSenate-text{
+    color: white;
+    font-family: var(--font-bebas-neue);
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    font-size: 2vw;
+    bottom: 7%;
+    padding-left: 20%;
+}
+.UNSC-text{
+    padding-left: 15%;
+}
+.DISEC-text{
+    padding-left: 10%;
+    text-align: center;
+}
+.HRC-text{
+    padding-left: 25%;
+}
+.IPC-text{
+    padding-left: 25%;
+}
+.LokSabha-text{
+    font-size: 2.3vw;
+    padding-left: 54%;
+}
+.USSenate-text{
+    padding-left: 18%;
+    text-overflow: initial;
+    white-space: nowrap;
+}
+.UNSC-logo,
+.HRC-logo,
+.LokSabha-logo{
+    height:60%;
+    max-width:100%;
+    align-self: center;
+    position: relative;
+    bottom: 12%;
+}
+
+.DISEC-logo,
+.IPC-logo,
+.USSenate-logo{
+    height:60%;
+    max-width:100%;
+    align-self: center;
+    position: relative;
+    bottom: 12%;
+}
+.DISEC{
+    padding-left: 15%;
+}
+.UNSC-logo{
+    padding-left: 1%;
+}
+.LokSabha-logo{
+    padding-left: 6%;
+}
+.USSenate-logo{
+    padding-right: 20%;
+    height: 63%;
+    
+}
+
+
+@media screen and (max-width:950px) {
+
+    .home-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.5vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+    }
+    .about-us-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.5vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+    }
+    
+    .register-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.5vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+    }
+    
+    .resources-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.5vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+    }
+    
+    .contact-us-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.5vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+    }
+    
+    .committees-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.5vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+    }
+    .insta{
+        height:30%;
+        max-width:30%;
+        align-self: center;
+        padding-left: 1.5%;
+        position: relative;
+        bottom: 15%;
+    }
+    
+    .linkedIn{
+        height:30%;
+        max-width:30%;
+        align-self: center;
+        position: relative;
+        padding-left: 0.5%;
+        bottom: 15%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .header-bar{
+        background-color: transparent;
+        width: 100%;
+        height: 10%;
+    background-color: transparent;}
+    .home-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.3vw;
+        padding-left:1%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+        background-color: transparent;
+    }
+    .about-us-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.3vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+        background-color: transparent;
+    }
+    
+    .register-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.3vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+        background-color: transparent;
+    }
+    
+    .resources-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.3vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+        background-color: transparent;
+    }
+    
+    .contact-us-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.3vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+        background-color: transparent;
+    }
+    
+    .committees-button{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 2.3vw;
+        padding-left:3%;
+        bottom: 30%;
+        align-self: center;
+        position: relative;
+        background-color: transparent;
+    }
+
+    .insta{
+        height:10%;
+        max-width:15%;
+        align-self: center;
+        padding-left: 0.5%;
+        position: relative;
+        bottom: 15%;
+        background-color: transparent;
+    }
+    
+    .linkedIn{
+        height:10%;
+        max-width:15%;
+        align-self: center;
+        position: relative;
+        padding-left: 0.5%;
+        bottom: 15%;
+        background-color: transparent;
+    }
+
+
+    .resources-header{
+        background-color: transparent;
+        width: 100%;
+        height: 15%;
+        background-color: transparent;
+        padding-top:2%;
+    }
+    .resources-header-text{
+        color: #371e67;
+        font-weight: 600;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        padding-top: 0%;
+        font-size: 17vw;
+        padding-left: 21%;
+        position: relative;
+    }
+    
+    .row-one{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color:transparent;
+        width: 100%;
+        height: 40%;
+        align-items: start;
+        justify-content: space-between;
+        padding-top: 5%;
+    }
+    
+    .delegate-handbook,
+    .equity-policy{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 42%;
+        align-items: start;
+        justify-content: start;
+        padding-left: 2%; 
+    }
+    .equity-policy{
+        padding-top: 5%;
+        
+    }
+    
+    .delegate-handbook-logo{
+        height:100%;
+        max-width:100%;
+        align-self: center;
+        position: relative;
+        bottom: 0%;
+        padding-top: 0%;
+        padding-left: 7%;
+    }
+    .delegate-handbook-text{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        align-self: center;
+        text-align: center;
+        position: relative;
+        font-size: 7vw;
+        bottom: 0%; 
+        padding-left: 9%;
+        padding-top: 0%;
+    }
+    .equity-policy{
+        padding-left: 2%;
+        
+    }
+    .equity-logo{
+        height:100%;
+        max-width:100%;
+        align-self:center;
+        position: relative;
+        padding-top: 0%;
+        padding-left: 7%;
+        bottom: 0%;
+    }
+    .equity-text{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        align-self: center;
+        text-align: center;
+        position: relative;
+        font-size: 7vw;
+        bottom: 0%;
+        padding-left: 16%;
+        padding-top: 0%;
+        
+    }
+    .background-guides-header{
+        position: relative;
+        background-color: transparent;
+        width: 100%;
+        height: 15%;
+        
+        padding-top: 3%;
+    }
+    .background-guides-header-text{
+        color: #371e67;
+        font-weight: 600;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        font-size: 14vw;
+        text-overflow: hidden;
+        padding-left: 5%;
+        position: relative;
+    }
+    .background-guides-row-one,
+    .background-guides-row-two,
+    .background-guides-row-three{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color:transparent;
+        width: 100%;
+        height: 35%;
+        
+        justify-content: start;   
+    }
+    .background-guides-row-two{
+        
+        padding-top: 5%;
+    }
+    .background-guides-row-three{
+        
+        padding-top: 5%;
+    }
+
+    .UNSC,
+    .HRC,
+    .DISEC,
+    .IPC,
+    .LokSabha,
+    .USSenate{
+        display: flex;
+        flex-direction: row;
+        height: 45%;
+        align-items: start;
+        justify-content: start;
+        padding-left: 0%; 
+    }
+    .DISEC,
+    .IPC,
+    .USSenate{
+        padding-top: 5%;
+    }
+
+    .UNSC-text,
+    .HRC-text,
+    .DISEC-text,
+    .IPC-text,
+    .LokSabha-text,
+    .USSenate-text{
+        color: white;
+        font-family: var(--font-bebas-neue);
+        text-decoration: none;
+        align-self: center;
+        text-align: center;
+        position: relative;
+        font-size: 6.5vw;
+        bottom: 0%;
+        padding-left: 0%;
+    }
+    .UNSC-text{
+        padding-left: 0%;
+    }
+    .HRC-text{
+        padding-left: 0%;
+        font-size: 7.8vw;
+    }
+    .IPC-text{
+        padding-left: 2.25%;
+        font-size: 7.4vw;
+    }
+    .LokSabha-text{
+        padding-left: 21%;
+        font-size: 8vw;
+    }
+    .USSenate-text{
+        padding-left: 19%;
+        font-size: 7vw;
+    }
+
+    .UNSC-logo,
+    .HRC-logo,
+    .LokSabha-logo{
+        height:100%;
+        max-width:100%;
+        align-self: center;
+        position: relative;
+        bottom: 0%;
+        padding-left: 10.25%;
+    }
+    .HRC-logo{
+        padding-left: 9.25%;
+    }
+
+    .DISEC-logo,
+    .IPC-logo,
+    .USSenate-logo{
+        height:100%;
+        max-width:100%;
+        align-self: center;
+        position: relative;
+        bottom: 0%;
+        padding-right: 0%;
+        padding-left: 10.25%;
+    }
+    .USSenate-logo{
+        padding-left: 11%;
+    }
+}
