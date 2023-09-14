@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Be Vietnam:wght@400&display=swap"
+    />
+  </head>
+  <body >
+    <div class="main-body">
+        <div class="header-bar"> 
+            <img class="munsoc-logo" src="./public/munsoc.png"> </img>
+            <a href = "/Home/home.html" class="home-button">Home</a>
+            <a href = "comingSoon/ComingSoon.html" class="about-us-button">About Us</a>
+            <a href = "/register/Register.html" class="register-button">Register</a>
+            <a href = "/comingSoon/ComingSoon.html" class="resources-button">Resources</a>
+            <a href = "/comingSoon/ComingSoon.html" class="committees-button">Committees</a>
+            <a href = "/comingSoon/ComingSoon.html" class="contact-us-button">Contact Us</a>
+    
+            <a href = "https://www.instagram.com/pesmunsociety/" class="insta">
+                <img class="insta" src="./public/Insta.png"></img>
+            </a>
+            <a href = "https://www.linkedin.com/company/pesmunsoc/" class="linkedIn">
+                <img class="linkedIn" src="./public/linkedIn.png"></img>
+            </a>   
+         </div>
+       <div class="intro">
+          <div class="quote">
+            <div class="del">
+              delegates today
+            </div>
+            <div class="del2">
+              leaders tomorrow
+            </div>
+          </div>
+          <div class="para">
+            The PES MUN Society returns with its eighth edition of the People’s Conference:
+            our premier Model UN with a wide array of committees and star-studded EB!
+            Dare to dream, dare to make an impact – Join us on October on the 7th and 8th of October, 2023!
+          </div>  
+       </div> 
+        <div class="carrousel">				
+          <input type="radio" name="slides" id="radio-1" checked>
+          <input type="radio" name="slides" id="radio-2">
+          <input type="radio" name="slides" id="radio-3">
+          <input type="radio" name="slides" id="radio-4">
+          <input type="radio" name="slides" id="radio-5">
+          <input type="radio" name="slides" id="radio-6">
+          <input type="radio" name="slides" id="radio-7">
+          <ul class="slides">
+              <li class="slides">
+                  <img src="/Home/public/Senate.png">
+              </li>        
+              <li class="slide">
+                  <img src="/Home/public/UNHRC.png">
+              </li>
+              <li class="slide">      
+                  <img src="/Home/public/UNSC.png">      
+              </li>
+              <li class="slide">
+                 <img src="/Home/public/CCC.png">
+              </li>
+              <li class="slide">
+                 <img src="/Home/public/DISEC.png">
+              </li>
+              <li class="slide">
+                <img src="/Home/public/IPC.png">
+              </li>
+              <li class="slide">
+                <img src="/Home/public/LS.png">
+              </li>
+          </ul>
+          <div class="slidesNavigation">
+            <label for="radio-1" id="dotForRadio-1"></label>
+            <label for="radio-2" id="dotForRadio-2"></label>
+            <label for="radio-3" id="dotForRadio-3"></label>
+            <label for="radio-4" id="dotForRadio-4"></label>
+            <label for="radio-5" id="dotForRadio-5"></label>
+            <label for="radio-6" id="dotForRadio-6"></label>
+            <label for="radio-7" id="dotForRadio-7"></label>
+          </div>    
+      </div>
+      <section class="clock">
+          <div class="pecon">PeCon'23</div>
+          <div class="timer" id="demo"></div>
+      </section>
+      <DIV class="locale">
+        <a class="find" href="https://goo.gl/maps/U1azd61BSWNbBkzd8"> &lt Click me to go to PES university &gt</Click></a>
+      </DIV>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Oct 7, 2023 08:00:00").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+          
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+          
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML ="we will see you in:  "+ days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+          
+        // If the count down is over, write some text 
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "Thank you for joining us!";
+        }
+      }, 1000);
+      </script>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
